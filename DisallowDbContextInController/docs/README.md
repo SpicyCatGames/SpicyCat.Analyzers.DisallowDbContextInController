@@ -1,0 +1,1 @@
+Add this package to your project to get an error when DbContext is injected into ControllerBase.
