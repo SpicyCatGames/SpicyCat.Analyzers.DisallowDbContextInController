@@ -21,6 +21,7 @@ A roslyn analyzer that will prevent dbcontext from being injected into Controlle
     <PackageTags>analyzer</PackageTags>
     <PackageReleaseNotes>initial release</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,6 +30,10 @@ A roslyn analyzer that will prevent dbcontext from being injected into Controlle
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="docs\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
