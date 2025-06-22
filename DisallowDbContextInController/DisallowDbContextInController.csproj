@@ -12,13 +12,12 @@
     <Title>SpicyCat.Analyzers.DisallowDbContextInController</Title>
     <Version>1.0.1</Version>
     <Authors>SpicyCatGames, Md Sadman Chowdhury</Authors>
-    <Description>About
-A roslyn analyzer that will prevent dbcontext from being injected into ControllerBase with dependency injection in asp.net core.</Description>
+    <Description>A roslyn analyzer that will prevent dbcontext from being injected into ControllerBase with dependency injection in asp.net core.</Description>
     <Copyright>Copyright (c) Md Sadman Chowdhury 2025</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/SpicyCatGames/SpicyCat.Analyzers.DisallowDbContextInController</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>analyzer</PackageTags>
+    <PackageTags>analyzer,roslyn,dbcontext</PackageTags>
     <PackageReleaseNotes>initial release</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
