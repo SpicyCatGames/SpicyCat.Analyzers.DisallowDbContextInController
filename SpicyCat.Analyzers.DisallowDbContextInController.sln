@@ -5,6 +5,14 @@ VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisallowDbContextInController", "DisallowDbContextInController\DisallowDbContextInController.csproj", "{40DCCBF0-5C94-44C6-943E-CD7A8577D147}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisallowDbContextInController.CodeFixes", "DisallowDbContextInController.CodeFixes\DisallowDbContextInController.CodeFixes.csproj", "{EC54DB26-4CC6-C28E-5B14-E61A03ACF5E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisallowDbContextInController.Package", "DisallowDbContextInController.Package\DisallowDbContextInController.Package.csproj", "{3A7CC136-3195-B862-4D19-74EEE180CD2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisallowDbContextInController.Test", "DisallowDbContextInController.Test\DisallowDbContextInController.Test.csproj", "{51B6D907-8445-70B7-7EF5-F6BFE8E6122A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisallowDbContextInController.Vsix", "DisallowDbContextInController.Vsix\DisallowDbContextInController.Vsix.csproj", "{44A624A3-828D-456F-9568-F05EAB498908}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{40DCCBF0-5C94-44C6-943E-CD7A8577D147}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40DCCBF0-5C94-44C6-943E-CD7A8577D147}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40DCCBF0-5C94-44C6-943E-CD7A8577D147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC54DB26-4CC6-C28E-5B14-E61A03ACF5E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC54DB26-4CC6-C28E-5B14-E61A03ACF5E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC54DB26-4CC6-C28E-5B14-E61A03ACF5E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC54DB26-4CC6-C28E-5B14-E61A03ACF5E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7CC136-3195-B862-4D19-74EEE180CD2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7CC136-3195-B862-4D19-74EEE180CD2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7CC136-3195-B862-4D19-74EEE180CD2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7CC136-3195-B862-4D19-74EEE180CD2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51B6D907-8445-70B7-7EF5-F6BFE8E6122A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B6D907-8445-70B7-7EF5-F6BFE8E6122A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B6D907-8445-70B7-7EF5-F6BFE8E6122A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B6D907-8445-70B7-7EF5-F6BFE8E6122A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A624A3-828D-456F-9568-F05EAB498908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A624A3-828D-456F-9568-F05EAB498908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A624A3-828D-456F-9568-F05EAB498908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A624A3-828D-456F-9568-F05EAB498908}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
